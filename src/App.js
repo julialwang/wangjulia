@@ -1,4 +1,6 @@
 import logo from './imgs/logo.png';
+import name from './imgs/name.png';
+
 import './styles/App.css';
 import NavBar from './components/NavBar.js'
 import Footer from './components/Footer.js'
@@ -8,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={name} className="App-logo" alt="logo" />
         <div>
           <h1>Julia L. Wang</h1>
           <p><em>Software engineer, bookworm, and full-time full-sender.</em></p>
