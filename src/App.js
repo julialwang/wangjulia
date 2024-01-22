@@ -20,7 +20,7 @@ function App() {
             <div style={{
               fontFamily: "Cambay", fontSize: "18px", color: "#DFDFDF", textAlign: 'left', alignContent: "left"
             }}>
-              Born in snowy Toronto and raised in cloudy Seattle, I've never been one to love tanning. But swimming is certainly a skill that's in my arsenal, and I really like spending all of my free time doing absolutely nothing and trying to think of fonts that look nice together by using this tool. Hopefully these fonts are all on Google because otherwise I will be very sad!
+              After four long years of stubbornly nursing a Bootstrap portfolio during my undergrad, I was finally driven to learn UX development thanks to my day job. I'm a bit of a designer at heart, so the nascent skills I've built this site with don't even come close to my vision (yet).<br></br>Nonetheless, it's symbolic of my goal as a junior developer: <b style={{backgroundColor:"#AB4E68", paddingLeft:"5px", paddingRight:"5px"}}>Design elegant software systems, pencil-to-paper, then learn everything needed to build them, fingers-to-keyboard.</b>
             </div>
           </div>
           <div style={{ marginRight: '10vw' }} >

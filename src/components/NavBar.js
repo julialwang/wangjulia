@@ -25,7 +25,7 @@ const NavItem = styled.li`
     cursor: pointer;
 
     &:hover {
-      color: #70ABAF;
+      color: #AB4E68;
     }
   }
 `;
