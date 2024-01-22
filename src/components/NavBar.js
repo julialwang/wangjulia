@@ -9,7 +9,6 @@ const Nav = styled.nav`
   align-items: center;
   height: 10vh;
   padding-right: 1.5vw;
-  padding-bottom: 5vh;
 `;
 
 const NavItem = styled.li`

@@ -1,8 +1,6 @@
 .intro {
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -10,5 +8,6 @@
   font-size: 18px;
   color: #DFDEDE;
   text-align: left;
-  align-content: left
+  align-content: left;
+  height: 50vh;
 }
