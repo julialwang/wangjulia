@@ -1,0 +1,17 @@
+/* Experience.css */
+
+/* Define a class to set the width of the accordion */
+.accordion-container {
+  width: 70vw;
+  margin: 0 auto; /* Center the component */
+  padding: 10px; /* Add 10px padding on each side */
+}
+
+/* Optionally, you can customize the width of the accordion details */
+.accordion-details {
+  width: 100%;
+}
+
+.MuiAccordionSummary-content {
+  font-weight: bold;
+}
