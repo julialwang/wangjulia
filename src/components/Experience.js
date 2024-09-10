@@ -1,15 +1,15 @@
-import * as React from 'react';
-import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
-import '../styles/Experience.css';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import * as React from "react";
+import { ThemeProvider, createTheme, styled } from "@mui/material/styles";
+import "../styles/Experience.css";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const darkTheme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: "dark",
   },
 });
 
@@ -27,8 +27,7 @@ export default function AccordionExpandDefault() {
           </AccordionSummary>
           <AccordionDetails className="accordion-details">
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+              Microsoft Cloud for Independent Software Vendors & AI.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -42,8 +41,21 @@ export default function AccordionExpandDefault() {
           </AccordionSummary>
           <AccordionDetails className="accordion-details">
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+              Azure Global Development Cloud & AI, Energy.
+              <ul>
+                <li>
+                  Supported the testing and release of a new energy-sector Azure
+                  product.
+                </li>
+                <li>
+                  Created thorough Build-Verification/Smoke test pipelines for
+                  APIs and polished existing features by clearing tech debt.
+                </li>
+                <li>
+                  Built customer-facing Azure DevOps pipelines with Postman,
+                  YAML, and Python.
+                </li>
+              </ul>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -53,12 +65,27 @@ export default function AccordionExpandDefault() {
             aria-controls="panel2-content"
             id="panel2-header"
           >
-            <h3>Software Development Engineering Intern @ Amazon (4/2022 - 6/2022) </h3>
+            <h3>
+              Software Development Engineering Intern @ Amazon (4/2022 - 6/2022){" "}
+            </h3>
           </AccordionSummary>
           <AccordionDetails className="accordion-details">
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+              Alexa Latency.
+              <ul>
+                <li>
+                  - Automated the device onboarding process for Devices to emit
+                  User-Perceived Latency metrics.
+                </li>
+                <li>
+                  - Resulting automation saved customers and my team 15 days of
+                  man-hours per onboard.
+                </li>
+                <li>
+                  - Built a custom API & pipeline, Typescript frontend, and
+                  incorporated numerous AWS services.
+                </li>
+              </ul>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -68,12 +95,25 @@ export default function AccordionExpandDefault() {
             aria-controls="panel2-content"
             id="panel2-header"
           >
-            <h3>Software Engineering Intern @ F5 Networks (6/2021 - 9/2021) </h3>
+            <h3>
+              Software Engineering Intern @ F5 Networks (6/2021 - 9/2021){" "}
+            </h3>
           </AccordionSummary>
           <AccordionDetails className="accordion-details">
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+              Office of the CTO Common Product & Component Libraries,
+              Supportability division.
+              <ul>
+                <li>
+                  - Improved upon a common manifest schema that fulfilled the
+                  metadata requirements of partner teams.
+                </li>{" "}
+                <li>
+                  - Automated manifest generation & management for a F5-internal
+                  health service that standardized cross-team requirements with
+                  Go, sqlite, and Docker.
+                </li>
+              </ul>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -83,12 +123,29 @@ export default function AccordionExpandDefault() {
             aria-controls="panel2-content"
             id="panel2-header"
           >
-            <h3>Software Development Engineering Intern @ Amazon (1/2021 - 4/2021) </h3>
+            <h3>
+              Software Development Engineering Intern @ Amazon (1/2021 - 4/2021){" "}
+            </h3>
           </AccordionSummary>
           <AccordionDetails className="accordion-details">
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+              Alexa API Tools.
+              <ul>
+                <li>
+                  - Strengthened API Central, a tool that allows Alexa Skill
+                  engineers to smoothly get designs through review into
+                  development.
+                </li>
+                <li>
+                  - Improved traffic projections with a multilayer system that
+                  compares estimates to real-time data and delivers metrics if
+                  services are over/underutilizing.
+                </li>
+                <li>
+                  - Designed new data access objects, a DynamoDB-backed API, and
+                  a customer-facing Vue.js frontend.
+                </li>
+              </ul>
             </Typography>
           </AccordionDetails>
         </Accordion>
